@@ -8,5 +8,5 @@ echo "10% tax"
 elif [ "$a" -eq 30000 ]; then
 echo "5% tax"
 else
-echo "15%tax"
+echo " 15%tax"
 fi
