@@ -5,8 +5,8 @@ if [ "$a" -lt 30000 ]; then
 echo "No tax"
 elif [ "$a" -gt 30000 -a "$a" -lt 40000 ]; then
 echo "10% tax"
-elif [ "$a" -gt 40000 ]; then
-echo "15% tax"
+elif [ "$a" -eq 30000 ]; then
+echo "5% tax"
 else
-echo "wrong input"
+echo "15%tax"
 fi
